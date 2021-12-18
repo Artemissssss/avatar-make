@@ -1,0 +1,28 @@
+.about-us {
+    text-align: center;
+    font-family: "Nokora",sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 43px;
+    line-height: 57px;
+}
+.about-us-section {
+    width: 1050px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.about-us-img {
+    width: 408px;
+    height: 408px;
+}
+.about-us-p {
+    font-family: "Nokora", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+}
+.coj-color {
+    color: rgba(0, 130, 200, 1);
+}
