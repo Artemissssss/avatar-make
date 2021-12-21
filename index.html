@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nokora:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="material-sect">
+        <h2 class="section-name">Матеріали</h2>
+        <div id="material-slider">
+            <div class="materials-item">
+                <img src="./img/backB.png" alt="" class="materials-img">
+                <img src="./img/backG.png" alt="" class="materials-img">
+                <img src="./img/backR.png" alt="" class="materials-img">
+                <img src="./img/backP.png" alt="" class="materials-img">
+            </div>
+            <div class="materials-item">
+                <img src="./img/hair-blue.png" alt="" class="materials-img">
+                <img src="./img/hairA-brown.png" alt="" class="materials-img">
+                <img src="./img/hairA-green.png" alt="" class="materials-img">
+                <img src="./img/hairA-red.png" alt="" class="materials-img">
+            </div>
+            <div class="materials-item">
+                <img src="./img/hairB-blue.png" alt="" class="materials-img">
+                <img src="./img/hairB-brown.png" alt="" class="materials-img">
+                <img src="./img/hairB-green.png" alt="" class="materials-img">
+                <img src="./img/hairB-red.png" alt="" class="materials-img">
+            </div>
+            <div class="materials-item">
+                <img src="./img/human-blue.png" alt="" class="materials-img">
+                <img src="./img/human-green.png" alt="" class="materials-img">
+                <img src="./img/human-red.png" alt="" class="materials-img">
+                <img src="./img/human-red.png" alt="" class="materials-img">
+            </div>
+            <div class="materials-item">
+                <img src="./img/hair-brown.png" alt="" class="materials-img">
+                <img src="./img/hair-green.png" alt="" class="materials-img">
+                <img src="./img/hair-red.png" alt="" class="materials-img">
+                <img src="./img/backP.png" alt="" class="materials-img">
+            </div>
+
+        </div>
+    </section>
+    <script>
+        $("#material-slider").slick()
+        $(".slick-prev").text("<")
+        $(".slick-next").text(">")
+    </script>
+</body>
+
+</html>
