@@ -1,0 +1,53 @@
+.materials-img {
+    width: 100px;
+    height: 100px;
+}
+
+.materials-item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-name {
+    text-align: center;
+    font-family: "Nokora", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 43px;
+    line-height: 57px;
+}
+
+#material-slider {
+    width: 750px;
+    position: relative;
+    height: 130px;
+    margin: 0 auto;
+}
+
+.slick-initialized .slick-slide {
+    display: flex;
+}
+
+.slick-arrow {
+    padding: auto 10px;
+    position: absolute;
+    font-family: "Nokora", sans-serif;
+    top: 40%;
+    transform: translateY(-50%);
+    border: none;
+    border-radius: 100%;
+    background-color: rgba(8, 8, 8, 0.534);
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: 35px;
+    z-index: 8;
+}
+
+.slick-prev {
+    left: 0;
+}
+
+.slick-next {
+    right: 0;
+}
